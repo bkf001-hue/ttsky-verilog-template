@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "7 segment"      # Project title
+  author:       "yblee"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "7 segment"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -21,26 +21,26 @@ project:
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
-pinout:
+pinout: 
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "test_in0"
+  ui[1]: "test_in1"
+  ui[2]: "test_in2"
+  ui[3]: "test_in3"
+  ui[4]: "test_in4"
+  ui[5]: "test_in5"
+  ui[6]: "test_in6"
+  ui[7]: "test_in7"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "test_out0"
+  uo[1]: "test_out1"
+  uo[2]: "test_out2"
+  uo[3]: "test_out3"
+  uo[4]: "test_out4"
+  uo[5]: "test_out5"
+  uo[6]: "test_out6"
+  uo[7]: "test_out7"
 
   # Bidirectional pins
   uio[0]: ""
